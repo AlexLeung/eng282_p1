@@ -2,6 +2,9 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link href="/font-awesome.min.css" rel="stylesheet">
         <style>
             html, body,
             #react-entry,
@@ -11,13 +14,22 @@
                 height: 100%;
                 width: 100%;
             }
-            body {
-                font-family: 'Arsenal', sans-serif;
+            p {
+                margin-top: 0;
+                text-indent: 20px;
+            }
+            p:last-of-type {
+                margin-bottom: 0;
+            }
+            hr {
+                border-style: solid;
+                border-color: #bbb;
+                margin: 0;
             }
         </style>
     </head>
     <body>
         <div id="react-entry"></div>
-        <script src="./build.js"></script>
+        <script src="/build.js"></script>
     </body>
 </html>

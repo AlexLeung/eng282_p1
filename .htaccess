@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !^/alleung/eng282_p1/index.html$
-RewriteCond %{REQUEST_URI} !\.(gif|jpe?g|png|css|js)$
+RewriteCond %{REQUEST_URI} !\.(gif|jpe?g|png|css|js|mp4)$
 RewriteRule ^.*$ /alleung/eng282_p1/index.html [NC]
